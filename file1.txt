@@ -1,0 +1,23 @@
+/************************Constructor*****************************/
+class Rectangle
+{
+ int len,wid;
+ Rectangle(int a,int b)
+ {
+   len=a;
+   wid=b;
+ }
+int RectArea()
+{
+  return(len*wid);
+}
+}
+class ConstructorDemo
+{
+ public static void main(String args[])
+  {
+   Rectangle R1=new Rectangle(15,11);
+   int area1=R1.RectArea();
+   System.out.println("Area1="+area1);
+  }
+}
